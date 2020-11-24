@@ -24,7 +24,7 @@ namespace NuclearInterface
         private void StartButton_Click(object sender, EventArgs e)
         {
 
-            stateLabel.Text = "Meltdown Initiated";
+            stateLabel.Text = "Reactor Meltdown";
             SoundPlayer player = new SoundPlayer(Properties.Resources.alert);
             player.Play();
 
